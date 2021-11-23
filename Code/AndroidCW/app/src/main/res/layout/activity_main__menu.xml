@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".Main_Menu">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/title"
+        android:layout_marginBottom="-15dp"
+        android:scaleX="2.25"
+        android:src="@drawable/blank"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/eightbit"
+        android:text="8-Bit\nDungeon"
+        android:textColor="@android:color/holo_red_dark"
+
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startGame"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/title"
+        android:layout_marginBottom="-300dp"
+        android:src="@drawable/start"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/h2pGame"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/title"
+        android:layout_marginBottom="-500dp"
+        android:src="@drawable/h2p"
+        />
+
+
+</RelativeLayout>

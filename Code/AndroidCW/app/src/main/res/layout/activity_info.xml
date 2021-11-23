@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".HowToPlay">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to play 8-Bit Dungeon"
+        android:fontFamily="@font/eightbit"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/triforce"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/eightbittriforce">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:fontFamily="@font/eightbit"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/triforce"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to 8-Bit Dungeon. In this demo you will control the hero Link through 3 levels of a dungeon.\n\nYou are able to control Link's movement by tilting your phone in the direction you want to go.\n\nYou must be able to navigate Link to the end of the level without losing all your health to enemy attacks; collecting as much treasure as you can.\n\nThis is a perilious quest, good luck hero!"
+        >
+
+    </TextView>
+
+
+</RelativeLayout>
