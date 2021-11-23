@@ -1,6 +1,6 @@
 Welcome to my Android Project!
 
-In this folder you will find an: APK of the final app; A PDF Report detailing the project; a video demonstration; and the project source folder.
+In this folder you will find the APK of the final app and the project source folder.
 
 The main code is located in: \AndroidCW\app\src\main\java
 
